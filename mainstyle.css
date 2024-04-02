@@ -271,12 +271,12 @@ img {vertical-align: middle;}
       padding-top: 10px;
     font-size: 52px;
     font-family:candle-light;
-   color:#3f703d;
-  }
-  @font-face {
-    font-family:candle-light;
-    src: url(Garelina\ Bold.ttf);
-  }
+    color:#3f703d;
+    }
+    @font-face {
+      font-family:candle-light;
+      src: url(Garelina\ Bold.ttf);
+    }
   .im{ 
       margin-left: -30px;
   width:60px;
