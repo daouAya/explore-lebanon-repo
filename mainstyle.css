@@ -133,12 +133,16 @@
   }
   
   h1{
-    font-family:comic sans-serif ;
     font-size:100px;
     text-align: center;
     border:1px solid white;
-    }
+    font-family:candle-light;
    
+  }
+  @font-face {
+    font-family:candle-light;
+    src: url(Garelina\ Bold.ttf);
+  }
    video{
     position:relative;
     top:-120px;
