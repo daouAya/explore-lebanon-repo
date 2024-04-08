@@ -38,7 +38,7 @@
   
   
   .header a:hover {
-    background-color:#81d48ca0;;
+    background-color:#81d48ca0;
     color: rgb(255, 255, 255);
   }
   
@@ -133,12 +133,16 @@
   }
   
   h1{
-    font-family:comic sans-serif ;
     font-size:100px;
     text-align: center;
     border:1px solid white;
-    }
+    font-family:candle-light;
    
+  }
+  @font-face {
+    font-family:candle-light;
+    src: url(Garelina\ Bold.ttf);
+  }
    video{
     position:relative;
     top:-120px;
@@ -231,15 +235,16 @@ img {vertical-align: middle;}
 }
 
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 500px) {
   .prev, .next,.text {font-size: 11px}
 }
 
   .d{
+    background-image: url("ceda.png");
+    background-size: 1550px;
     background-repeat: no-repeat;
-    background-image: url(Untitled\ 2.png);
-        background-size:1500px, 1000px;
-        padding-bottom: 200px;
+    padding-bottom: 150px;
+    padding-top: 100px;
   }
   .container {
       display: flex;
@@ -283,4 +288,19 @@ img {vertical-align: middle;}
   height:60px;
   
   }
-  
+  .footer {
+    position: relative;
+    border-top:5px solid #3f703d;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    background:#81d48c; 
+    color: white;
+}
+.lo{
+border-top: 5px solid #3f703d; 
+border-radius: 100px;
+margin-left: 700px;
+block-size: 100px;
+margin-top: -50px;
+}
