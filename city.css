@@ -166,13 +166,10 @@
   
    
   }
- 
   .icons{
-    
     transition: transform .5s ease;
-     height:100px;
-     width:120px;
-  
+     height:90px;
+     width:110px;
   }
 
   .icons:hover{
@@ -184,11 +181,9 @@
    width:auto;
     font-size: 20px;
     text-shadow:5px 5px 5px rgba(57, 79, 57, 0.853);
-    top:40%;
+    top:36%;
     margin-left:20%;
     z-index:3;
-   
-   
   }
   td{
     text-align:center;
@@ -199,8 +194,8 @@
   }
   .othericon{
     transition: transform .5s ease;
-    height:110px;
-    width:120px;
+    height:90px;
+    width:100px;
   }
   .othericon:hover{
     transform: scale(1.2);
