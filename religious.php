@@ -12,7 +12,7 @@
     <div class="content">
         <div class="header">
             <img src="logo.png" height="50px" width="50px" class="logo"/>
-    <a href="test2.html" class="name">Explore Lebanon</a>
+    <a href="index.php" class="name">Explore Lebanon</a>
          
             <div class="header-right">
                 <div class="dropdown">
@@ -21,13 +21,13 @@
                     </button>
                     <div class="dropdown-content">
                       <a href="nature.html">Nature and Adventures</a>
-                      <a href="historical.html">Historical Tourism</a>
+                      <a href="His">Historical Tourism</a>
                       <a href="religious.html">Religious Tourism</a>
                       <a href="Winter">Winter Activities</a> 
                       <a href="Summer">Summer Activities</a>
-                      <a href="city.html">City Entertainment</a> 
+                      <a href="City">City Entertainment</a> 
                       <a href="nightlife.html">Nightlife</a> 
-                      <a href="festivals.html">Festivals</a>
+                      <a href="Festivals">Festivals</a>
                     </div>
                   </div>
                   <div class="dropdown">

@@ -1,0 +1,173 @@
+<?php
+session_start();
+
+if (!isset($_SESSION['username'])) {
+    // User is not logged in, redirect to the login page
+    header("Location: login.php");
+    exit();
+}
+
+// User is logged in, display the main page content
+echo "Welcome, " . $_SESSION['username'] . "!";
+?>
+<!DOCTYPE html>
+
+<html lang="en" >
+<head>
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <meta charset="utf-8" />
+    <title>Cornayel Lakes</title>
+    <link rel="stylesheet" href="place.css" /> 
+    
+    <script src="place.js" defer></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+   
+
+  </head>
+<body style="background-color: rgba(191, 248, 192, 0.688);">
+    
+    <div class="content">
+        <div class="header">
+            <img src="logo.png" height="50px" width="50px" class="logo"/>
+    <a href="index.php" class="name">Explore Lebanon</a>
+         
+            <div class="header-right">
+                <div class="dropdown">
+                    <button class="dropbtn">Places and Activities
+                      
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="nature.php">Nature and Adventures</a>
+                      <a href="His">Historical Tourism</a>
+                      <a href="religious.php">Religious Tourism</a>
+                      <a href="Winter">Winter Activities</a> 
+                      <a href="Summer">Summer Activities</a>
+                      <a href="city.html">City Entertainment</a> 
+                      <a href="nightlife.php">Nightlife</a> 
+                      <a href="festivals.php">Festivals</a>
+                    </div>
+                  </div>
+                  <div class="dropdown">
+             <button class="dropbtn"> Regions
+            </button>
+            <div class="dropdown-content">
+                <a href="South">
+                    North
+                </a>
+                <a href="South">
+                   Beqaa Valley
+                </a>
+                <a href="South">
+                    Mount Lebanon
+                </a>
+                <a href="South">
+                    Beirut
+                </a>
+                <a href="South">
+                    South
+                </a>
+            </div>
+            </div>
+         
+            <a  onClick="scrollToSection('tips')">Tips</a>
+            <a href="#about">Contact Us</a> 
+            <a ><img src="search.png" class="login" title="Search" id="searchButton" onClick="openPopup()"></a>
+            <div id="searchPopup" class="popup">
+              <button class="close" onClick="closePopup()">&times</button>
+              <input type="text" placeholder="Search for a place or region.."><button>Search</button>
+              </div>
+            <a href="login"><img src="login.png" class="login" title="Log in"></a>
+   
+              
+            </div>
+          </div>
+          
+          
+        <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="cornayel-lakes-inside.jpg" class="img">
+    
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="cornayel-lakes-inside-2.jpg" class="img">
+    
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="cornayel-lakes-inside-3.jpg" class="img">
+   
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+<br>
+
+
+ <h1> CORNAYEL LAKES</h1>
+<h2> &nbsp; &nbsp;Cornayel Lakes:<br>&nbsp; &nbsp; Mount Lebanon's Hidden Alpine Haven </h2>
+
+<p class="description">
+            Discover the serene beauty of Cornayel Lakes in Lebanon. Surrounded by majestic mountains and lush greenery,
+            these tranquil lakes offer a perfect escape for nature lovers. Come and experience their charm firsthand!<br>
+            The Cornayel Lakes consist of a series of small freshwater lakes nestled amidst the rugged landscape of Mount Lebanon.
+ These lakes are known for their natural beauty, with pristine waters reflecting the surrounding greenery and mountains.
+ The area around the lakes is often frequented by hikers and nature enthusiasts due to its tranquil ambiance and scenic hiking trails.
+          </p>
+          <div id="fact">
+            <h3 class="candle">Did You Know?</h3>
+            <br>
+            <p>
+             The Cornayel Lakes in Lebanon's Mount Lebanon region were formed by glacial activity during the Ice Age.<br>
+             These serene bodies of water nestled amidst rugged
+             mountains and valleys  are a testament to the ancient geological forces that shaped our planet's landscape.</p>
+          </div>
+          <br><br><br>
+          <h2> &nbsp; &nbsp;Attractions and Activities:</h2>
+          <p class="description">         Visitors to the Cornayel Lakes can enjoy activities such as hiking, picnicking, birdwatching, and photography.<br>
+            The lakes provide opportunities for fishing, although regulations may apply, so it's essential to check local guidelines.<br>
+            Surrounding the lakes, there may be designated picnic areas or facilities where visitors can relax and enjoy the serene environment.</p>
+           
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.0144232244534!2d35.73873867550695!3d33.83773867323848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f31d1cac49c9b%3A0xaab6dc6df6094df3!2sQornayel%20lakes!5e0!3m2!1sen!2slb!4v1714330637816!5m2!1sen!2slb" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+   
+            
+<!--star rating:-->
+
+<?php
+if (isset($_SESSION['username'])) {
+    echo '<div class="rating-box">
+            <header>How was your experience?</header>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <form method="post" action="add_comment.php">
+            <input type="hidden" name="username" value="' . $_SESSION['username'] . '">
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+            <br>
+            <input type="submit" name="submit" value="Submit">
+          </form>';
+} else if (!isset($_SESSION['username'])) {
+    echo '<div id="restricted">OOPS! You cannot access this section unless you have an account.<br>
+    <a href="login2.php">Log in here!</a> In order to leave a comment or rate this place. Enjoy all features when logged in </div>';
+}
+?>
+</body>

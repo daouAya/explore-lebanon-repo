@@ -4,7 +4,7 @@
 <head>
     <link rel="icon" href="logo.png" type="image/x-icon">
     <meta charset="utf-8" />
-    <title>Nature</title>
+    <title>NATURE</title>
     <link rel="stylesheet" href="nature.css" />
 </head>
 <body>
@@ -12,7 +12,7 @@
     <div class="content">
         <div class="header">
             <img src="logo.png" height="50px" width="50px" class="logo"/>
-    <a href="test2.html" class="name">Explore Lebanon</a>
+    <a href="index.php" class="name">Explore Lebanon</a>
          
             <div class="header-right">
                 <div class="dropdown">
@@ -21,12 +21,12 @@
                     </button>
                     <div class="dropdown-content">
                       <a href="nature.html">Nature and Adventures</a>
-                      <a href="His">Historical Tourism</a>
+                      <a href="">Historical Tourism</a>
                       <a href="religious.html">Religious Tourism</a>
                       <a href="Winter">Winter Activities</a> 
                       <a href="Summer">Summer Activities</a>
-                      <a href="city.html">City Entertainment</a> 
-                      <a href="Night">Nightlife</a> 
+                      <a href="City">City Entertainment</a> 
+                      <a href="nightlife.html">Nightlife</a> 
                       <a href="Festivals">Festivals</a>
                     </div>
                   </div>
@@ -53,8 +53,8 @@
             </div>
               <a href="#about">Tips</a>
               <a href="#about">Contact Us</a>
-              <a href="login"><img src="search.png" class="login" title="Search"></a>
-              <a href="login"><img src="login.png" class="login" title="Log in"></a>
+              <a href="login"><img src="search.png" class="login" title="Search" onClick="openPopup()"></a>
+              <a href="login2.php"><img src="login.png" class="login" title="Log in"></a>
               
             </div>
           </div>
@@ -101,7 +101,7 @@
     <table class="nextTable">
         <tr>
             <td class="d">
-                <a href="cornayel.html">
+                <a href="cornayel.php">
                 <img src="lakes.jpg" class="suwar"> 
                 <p class="fly"> Cornayel Lakes</p>
             </a>
@@ -114,9 +114,9 @@
             </td>
             <td class="d">
                 
-                    <a href="chouwen.html">
-                    <img src="nohad.nature.jpg" class="suwar">
-                <p class="fly">Chouwen</p>
+                    <a href="balu3-bal3a.html">
+                    <img src="balu3-bal3a2.jpg" class="suwar">
+                <p class="fly">Baloou'-Bal'aa</p>
                 </a>
                 
             </td>
@@ -128,34 +128,34 @@
             </td>
         </tr>
     </table>
-    <h1 class="h1">HIDDEN GEMS
+    <h1 class="h1">RESERVES
     </h1>
     <table class="nextTable">
         <tr>
             <td class="d">
-                <a href="cornayel.html">
-                <img src="lakes.jpg" class="suwar"> 
-                <p class="fly"> Cornayel Lakes</p>
+                <a href="tannourine.html">
+                <img src="tannourine.jpg" class="suwar"> 
+                <p class="fly">Tannourine</p>
             </a>
                 </td>
             <td class="d">
-                <a href="cedars">
-                <img src="cedar.jpg" class="suwar">
-                <p class="fly">Cedars of God</p>
+                <a href="ehden.html">
+                <img src="ehden.jpg" class="suwar">
+                <p class="fly">Ehden</p>
             </a>
             </td>
             <td class="d">
                 
-                    <a href="chouwen.html">
-                    <img src="nohad.nature.jpg" class="suwar">
-                <p class="fly">Chouwen</p>
+                    <a href="wadi-alhjer.html">
+                    <img src="wadi-lhjer.jpg" class="suwar">
+                <p class="fly">Wadi-alhjer</p>
                 </a>
                 
             </td>
             <td class="d">
-                <a href="jeita.html">
-                <img src="jeita.jpg" class="suwar">
-                 <p class="fly">Jeita Grotto</p>
+                <a href="yammoune.html">
+                <img src="yammouneh.jpg" class="suwar">
+                 <p class="fly">Yammouneh</p>
                 </a>
             </td>
         </tr>

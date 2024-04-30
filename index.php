@@ -1,3 +1,17 @@
+<?php
+session_start();
+
+if (!isset($_SESSION['username'])) {
+    // User is not logged in, redirect to the login page
+    header("Location: login2.php");
+    exit();
+}
+
+// User is logged in, display the main page content
+echo "Welcome, " . $_SESSION['username'] . "!";
+?>
+
+
 <!DOCTYPE html>
 
 <html lang="en" >
@@ -5,12 +19,13 @@
   <link rel="icon" href="logo.png" type="image/x-icon">
     <meta charset="utf-8" />
     <title>explore lebanon</title>
-    <link rel="stylesheet" href="mainstyle.css" />
+    <link rel="stylesheet" href="main.css" />
     <script src="main.js" defer></script>
 </head>
  <body>
      <div class="content">
         <div class="header">
+          
             <img src="logo.png" height="50px" width="50px" class="logo"/>
     <a href="mainpage.html" class="name">Explore Lebanon</a>
          
@@ -20,14 +35,14 @@
                       
                     </button>
                     <div class="dropdown-content">
-                      <a href="nature.html">Nature and Adventures</a>
-                      <a href="historical.html">Historical Tourism</a>
-                      <a href="religious.html">Religious Tourism</a>
-                      <a href="winter.html">Winter Activities</a> 
-                      <a href="summer.html">Summer Activities</a>
+                      <a href="nature.php">Nature and Adventures</a>
+                      <a href="historical.php">Historical Tourism</a>
+                      <a href="religious.php">Religious Tourism</a>
+                      <a href="Winter">Winter Activities</a> 
+                      <a href="Summer">Summer Activities</a>
                       <a href="city.html">City Entertainment</a> 
-                      <a href="nightlife.html">Nightlife</a> 
-                      <a href="festivals.html">Festivals</a>
+                      <a href="nightlife.php">Nightlife</a> 
+                      <a href="Festivals">Festivals</a>
                     </div>
                   </div>
                   <div class="dropdown">
@@ -54,20 +69,17 @@
              
             <a  onClick="scrollToSection('tips')">Tips</a>
               <a href="#about">Contact Us</a> 
-              <a ><img src="search.png" class="login" title="Search" id="searchButton"></a>
+              <a ><img src="search.png" class="login" title="Search" id="searchButton" onClick="openPopup()"></a>
               <div id="searchPopup" class="popup">
-                <span class="close" onclick="closePopup()">&times;</span>
-                <input type="text" placeholder="Search for a place or region..">
-                <button>Search</button>
+                <p class="close" onClick="closePopup()">&times</p>
+                <input type="text" placeholder="Search for a place or region.."><button>Search</button>
+                </div>
+              <a href="login2.php"><img src="login.png" class="login" title="Login" ></a>
               </div>
-              <a href="login"><img src="login.png" class="login" title="Log in"></a>
-             
-            
-          </div>
      </div>
      </div>
      
-      
+      <div id="secondbody">
       <video autoplay muted loop  >
         <source src="lebcrop.mp4" type="video/mp4">
         your browser does not support the video.
@@ -158,6 +170,7 @@
             <div class="box"><img src="output-onlinegiftools (1).gif" class="im"><br/>   Urgent Numbers<br/><span>Red cross : ######</span></div>
       </div>
       </div>
+    </div>
      </body>
     </html>
 </html>
