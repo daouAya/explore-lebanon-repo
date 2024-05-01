@@ -1,3 +1,12 @@
+<?php
+session_start();
+
+if (isset($_SESSION['username'])) {
+    // User is logged in, display the main page content
+echo "Welcome, " . $_SESSION['username'] . "!";
+}
+
+?>
 <!DOCTYPE html>
 
 <html lang="en" >
@@ -131,6 +140,25 @@
              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.0144232244534!2d35.73873867550695!3d33.83773867323848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f31d1cac49c9b%3A0xaab6dc6df6094df3!2sQornayel%20lakes!5e0!3m2!1sen!2slb!4v1714330637816!5m2!1sen!2slb" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
             </div>
              <button class="fav-btn" id="fav-btn" onclick="addToFavorites('Faraya ')" style="background-color:rgba(145, 236, 146, 0.688) ;">Add to Favorites</button>
-  <a href="favorites.html" onclick="displayFavorites()">View Favorites</a>
-            
+  <a href="favorites.php" onclick="displayFavorites()">View Favorites</a>
+           
+  <!--star rating:-->
+
+<?php
+if (isset($_SESSION['username'])) {
+    echo '<div class="rating-box">
+            <header>How was your experience?</header>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>';
+} else if (!isset($_SESSION['username'])) {
+    echo '<div id="restricted">OOPS! You cannot access this section unless you have an account.<br>
+    <a href="login2.php">Log in here!</a> In order to leave a comment or rate this place. Enjoy all features when logged in </div>';
+}
+?>
 </body>
