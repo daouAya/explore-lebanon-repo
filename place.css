@@ -275,10 +275,10 @@ color:#fffdfd;
 }
 .rating-box header {
   font-size: 22px;
-  color: #dadada;
+  color: #020202;
   font-weight: 500;
   margin-bottom: 20px;
-  text-align: center;
+ float:left;
 }
 .rating-box .stars {
   display: flex;
@@ -319,9 +319,10 @@ left:2%;
 }
 .map{
   position: relative;
-  left:45%;
+  margin-left:2%;
 }
 #fact{
+  
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-weight: lighter;
   padding:1%;
@@ -334,7 +335,7 @@ left:2%;
   background-color: rgba(177, 236, 179, 0.405);;
   position: relative;
   float:right;
-  top:-400px;
+  top:-300px;
   }
   .candle{
     font-family: candle-light;
@@ -369,4 +370,11 @@ textarea {
 
 .comment p {
     margin-bottom: 0;
+}
+.fav-btn{
+  width:200px;
+  height:70px;
+  border-radius:25px;
+  border:transparent;
+  cursor:pointer;
 }

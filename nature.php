@@ -20,14 +20,14 @@
                       
                     </button>
                     <div class="dropdown-content">
-                      <a href="nature.html">Nature and Adventures</a>
-                      <a href="">Historical Tourism</a>
-                      <a href="religious.html">Religious Tourism</a>
-                      <a href="Winter">Winter Activities</a> 
-                      <a href="Summer">Summer Activities</a>
-                      <a href="City">City Entertainment</a> 
-                      <a href="nightlife.html">Nightlife</a> 
-                      <a href="Festivals">Festivals</a>
+                      <a href="nature.php">Nature and Adventures</a>
+                      <a href="historical.php">Historical Tourism</a>
+                      <a href="religious.php">Religious Tourism</a>
+                      <a href="winter.php">Winter Activities</a> 
+                      <a href="summer.php">Summer Activities</a>
+                      <a href="city.php">City Entertainment</a> 
+                      <a href="nightlife.php">Nightlife</a> 
+                      <a href="festival.php">Festivals</a>
                     </div>
                   </div>
                   <div class="dropdown">
@@ -103,25 +103,25 @@
             <td class="d">
                 <a href="cornayel.php">
                 <img src="lakes.jpg" class="suwar"> 
-                <p class="fly"> Cornayel Lakes</p>
+                <p class="fly"> qornayel Lakes</p>
             </a>
                 </td>
             <td class="d">
-                <a href="cedars">
+                <a href="cedars.php">
                 <img src="cedar.jpg" class="suwar">
                 <p class="fly">Cedars of God</p>
             </a>
             </td>
             <td class="d">
                 
-                    <a href="balu3-bal3a.html">
+                    <a href="balu3-bal3a.php">
                     <img src="balu3-bal3a2.jpg" class="suwar">
                 <p class="fly">Baloou'-Bal'aa</p>
                 </a>
                 
             </td>
             <td class="d">
-                <a href="jeita.html">
+                <a href="jeita.php">
                 <img src="jeita.jpg" class="suwar">
                  <p class="fly">Jeita Grotto</p>
                 </a>
@@ -133,29 +133,60 @@
     <table class="nextTable">
         <tr>
             <td class="d">
-                <a href="tannourine.html">
+                <a href="tannourine.php">
                 <img src="tannourine.jpg" class="suwar"> 
                 <p class="fly">Tannourine</p>
             </a>
                 </td>
             <td class="d">
-                <a href="ehden.html">
+                <a href="ehden.php">
                 <img src="ehden.jpg" class="suwar">
                 <p class="fly">Ehden</p>
             </a>
             </td>
             <td class="d">
                 
-                    <a href="wadi-alhjer.html">
+                    <a href="wadi-alhjer.php">
                     <img src="wadi-lhjer.jpg" class="suwar">
                 <p class="fly">Wadi-alhjer</p>
                 </a>
                 
             </td>
             <td class="d">
-                <a href="yammoune.html">
+                <a href="yammoune.php">
                 <img src="yammouneh.jpg" class="suwar">
                  <p class="fly">Yammouneh</p>
+                </a>
+            </td>
+        </tr>
+    </table>
+    <h1 class="h1">Rivers</h1>
+    <table class="nextTable">
+        <tr>
+            <td class="d">
+                <a href="litani.php">
+                <img src="litani.jpg" class="suwar"> 
+                <p class="fly">Litani River</p>
+            </a>
+                </td>
+            <td class="d">
+                <a href="naher-alkabir.php">
+                <img src="naher-alkabir.jpg" class="suwar">
+                <p class="fly">Al-Kabir River</p>
+            </a>
+            </td>
+            <td class="d">
+                
+                    <a href="hasbani.php">
+                    <img src="hasbani.jpg" class="suwar">
+                <p class="fly">Ah-Hasbani River</p>
+                </a>
+                
+            </td>
+            <td class="d">
+                <a href="damour.php">
+                <img src="damour.jpg" class="suwar">
+                 <p class="fly">Damour River</p>
                 </a>
             </td>
         </tr>

@@ -139,7 +139,7 @@
     border-color: white;
     color:white;
     display:flex;
-    top:20%;
+    top:10%;
     left:2%;
     font-size: 100px;
     text-shadow: 2px 2px #1d291a;
@@ -157,7 +157,7 @@
     font-family:candle-light;
    width:auto;
    position: absolute;
-   top:30%;
+   top:20%;
    left:2%;
     font-size:25px;
    display:flex;
@@ -184,7 +184,7 @@
    width:auto;
     font-size: 20px;
     text-shadow:5px 5px 5px rgba(57, 79, 57, 0.853);
-    top:40%;
+    top:30%;
     margin-left:20%;
     z-index:3;
    

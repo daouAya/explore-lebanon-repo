@@ -1,0 +1,63 @@
+.input{
+    
+    border-radius: 25px;
+    color: rgb(19, 86, 19);
+    font-size:30px;
+    font-family: candle-light;
+
+}
+.label{
+    font-family: candle-light;
+    font-size: 30px;
+}
+@font-face {
+    font-family:candle-light;
+    src: url(Garelina\ Bold.ttf);
+    
+  }
+  #form{
+    margin-top:10%;
+    margin-left:50%
+
+  }
+  
+  .submit{
+    cursor: pointer;
+    margin-left:30%;;
+    margin-top:2%;
+    width:15%;
+    height:10%;
+    font-size: 20px;
+    border-radius:25px;
+    background-color: rgb(144, 242, 139);
+  }
+  .submit:hover{
+   background-color: green;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+  }
+  .plane{
+    top:-400px;
+    margin-left: 10%;;
+    width:500px;
+    height:500px;
+    position: relative;
+
+  }
+.test{
+    filter: brightness(50%);
+    opacity: 30%;
+}
+body{
+    padding:0;
+    margin:0;
+    background: hsla(138, 56%, 73%, 1);
+
+    background: radial-gradient(circle, hsla(138, 56%, 73%, 1) 10%, hsla(159, 23%, 25%, 1) 100%);
+    
+    background: -moz-radial-gradient(circle, hsla(138, 56%, 73%, 1) 10%, hsla(159, 23%, 25%, 1) 100%);
+    
+    background: -webkit-radial-gradient(circle, hsla(138, 56%, 73%, 1) 10%, hsla(159, 23%, 25%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#94E1AB", endColorstr="#314E44", GradientType=1 );
+}

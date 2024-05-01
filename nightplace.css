@@ -1,0 +1,387 @@
+body{
+    margin:0;
+    padding:0;
+}
+*{
+    font-family: Trebuchet MS;
+    margin:0;
+  }
+  .header {
+    overflow: hidden;
+    background-color:rgb(92, 0, 0) ;
+    padding: 0px 10px;
+  }
+  
+  a.name{
+    float: left;
+    color: rgb(234, 242, 234) !important;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 30px !important;
+    line-height: 18px;
+    border-radius: 4px;
+  }
+  .header a {
+    float: left;
+    color: rgb(255, 252, 252);
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 4px;
+    cursor:pointer;
+    text-shadow: 2px 2px #1d291a;
+  }
+  
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  
+  .header a:hover {
+    background-color:rgba(243, 108, 108, 0.704);;
+    color: rgb(255, 255, 255);
+  }
+  
+  
+  .header a.active {
+    background-color: rgba(254, 108, 108, 0.704);;
+    color:rgb(3, 41, 3);
+  }
+  
+  
+  .header-right {
+    float: right;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  .dropbtn{
+    font-size:20px;
+    color:rgb(255, 243, 243);
+    margin:0;
+    font-family:inherit;
+    background-color: #f1f1f100;
+    border:none;
+    border-radius: 4px;
+    line-height: 25px;
+    text-shadow: 2px 2px #1d291a;
+    cursor:pointer;
+   
+  }
+  .dropbtn:hover{
+    background-color: rgba(254, 108, 108, 0.704);;
+  }
+  .dropdown  {
+    font-size: 15px;
+    border: none;
+    outline: none;
+    color: rgb(255, 249, 249);
+    padding: 14px 16px;
+    background-color:  #f1f1f100;
+    font-family: inherit;
+    margin: 0; 
+  
+  }
+  
+  .content {
+    position: sticky !important;
+    bottom: 0;
+    width: 100%;
+    padding: 0;
+    z-index: 1;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #776b6bc9 !important;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 15px;
+    text-shadow: 2px 2px #1d291a;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: rgb(253, 253, 253);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    text-shadow: 2px 2px #1d291a;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .logo{
+    float:left;
+  }
+  .login{
+    width:30px;
+    height:30px;
+    padding:0px;
+   
+  }
+.popup {
+    display: none;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    width:30%;
+    padding:5px;
+    background-color: #dc6363;
+    border-radius: 5px;
+    z-index: 9999;
+    align-items: center; 
+    justify-content: space-between;
+  }
+  .popup input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+    width:70%;
+  }
+  .popup button {
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: #8f3a3a;
+    color:white;
+    cursor: pointer;
+    font-family: candle-light;
+    cursor: pointer;
+  }
+  .popup button:hover{
+    color:white;
+    background-color: #8a0202;
+    font-family: candle-light;
+  }
+  * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+ 
+  max-width: 2000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.img{
+  width:100%;
+  height:700px;
+}
+/* for the name of the place */
+h1{
+  position:relative;
+  top:-700px;
+ font-size:100px;
+background-color: rgb(92, 0, 0) ;
+  font-family: candle-light;
+color:#ffffff;
+
+
+}
+@font-face {
+  font-family:belgium;
+  src: url(BelgiumRoundedDemoRegular-JppGK.otf);
+}
+@font-face {
+  font-family:candle-light;
+  src: url(Garelina\ Bold.ttf);
+}
+.rating-box {
+  position: relative;
+  background: #fff;
+  padding: 25px 50px 35px;
+  border-radius: 25px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+.rating-box header {
+  font-size: 22px;
+  color: #020202;
+  font-weight: 500;
+  margin-bottom: 20px;
+ float:left;
+}
+.rating-box .stars {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.stars i {
+  color: #e6e6e6;
+  font-size: 35px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+.stars i.active {
+  color: #ff9c1a;
+  background-color: transparent;
+}
+.description{
+  margin-top:-60px;
+  margin-bottom:2%;
+  margin-left:2%;
+  padding:3%;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(255, 255, 255);
+  font-size:20px;
+  width:70%;
+
+}
+h2{
+ background-color:rgb(92, 0, 0) ;
+ width:70%;
+ margin-bottom:2%;
+font-size:50px;
+ margin-top:-100px;
+font-family: candle-light;
+color:#ffffff;
+left:2%;
+}
+.map{
+  position: relative;
+  margin-left:2%;
+}
+#fact{
+  
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  padding:1%;
+  text-align: center;
+  font-size:30px;
+  margin-right:20px;
+  height:700px;
+  width:400px;
+  color:rgb(255, 255, 255);
+  background-color: rgba(23, 23, 23, 0.704);;
+  position: relative;
+  float:right;
+  top:-300px;
+  }
+  
+  .candle{
+    font-family: candle-light;
+    background-color: rgb(92, 0, 0) ;
+    color:black;
+    
+  }
+  #restricted{
+    margin-left:40px;
+    position:relative;
+    top:100px;
+    float:left;
+    
+    font-size:20px;
+  }
+  form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+textarea {
+    width: 100%;
+}
+
+.comment {
+    border: 1px solid #000000;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.comment h2 {
+    margin-top: 0;
+}
+
+.comment p {
+    margin-bottom: 0;
+}
+.fav-btn{
+  width:200px;
+  height:70px;
+  border-radius:25px;
+  border:transparent;
+  cursor:pointer;
+
+}
+p{
+  color:white;
+}
+

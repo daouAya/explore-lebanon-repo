@@ -20,14 +20,14 @@
                       
                     </button>
                     <div class="dropdown-content">
-                      <a href="nature.html">Nature and Adventures</a>
-                      <a href="His">Historical Tourism</a>
-                      <a href="religious.html">Religious Tourism</a>
-                      <a href="Winter">Winter Activities</a> 
-                      <a href="Summer">Summer Activities</a>
-                      <a href="City">City Entertainment</a> 
-                      <a href="nightlife.html">Nightlife</a> 
-                      <a href="Festivals">Festivals</a>
+                      <a href="nature.php">Nature and Adventures</a>
+                      <a href="historical.php">Historical Tourism</a>
+                      <a href="religious.php">Religious Tourism</a>
+                      <a href="winter.php">Winter Activities</a> 
+                      <a href="summer.php">Summer Activities</a>
+                      <a href="city.php">City Entertainment</a> 
+                      <a href="nightlife.php">Nightlife</a> 
+                      <a href="festival.php">Festivals</a>
                     </div>
                   </div>
                   <div class="dropdown">
@@ -54,7 +54,7 @@
               <a href="#about">Tips</a>
               <a href="#about">Contact Us</a>
               <a href="login"><img src="search.png" class="login" title="Search"></a>
-              <a href="login"><img src="login.png" class="login" title="Log in"></a>
+              <a href="login2.php"><img src="login.png" class="login" title="Log in"></a>
               
             </div>
           </div>
@@ -94,71 +94,104 @@ Experience the tapestry of faiths that makes Lebanon a haven for seekers of cult
   </table>
   
    <div class="under">
-    <h1 class="h1">TOP TOURIST DESTINATIONS
-  </h1>
-  
-    <table class="nextTable">
-        <tr>
-            <td class="d">
-                <a href="cornayel.html">
-                <img src="lakes.jpg" class="suwar"> 
-                <p class="fly"> Cornayel Lakes</p>
-            </a>
-                </td>
-            <td class="d">
-                <a href="cedars">
-                <img src="cedar.jpg" class="suwar">
-                <p class="fly">Cedars of God</p>
-            </a>
-            </td>
-            <td class="d">
-                
-                    <a href="chouwen.html">
-                    <img src="nohad.nature.jpg" class="suwar">
-                <p class="fly">Chouwen</p>
-                </a>
-                
-            </td>
-            <td class="d">
-                <a href="jeita.html">
-                <img src="jeita.jpg" class="suwar">
-                 <p class="fly">Jeita Grotto</p>
-                </a>
-            </td>
-        </tr>
-    </table>
-    <h1 class="h1">HIDDEN GEMS
+   <h1 class="h1">Top Tourist Destinations
     </h1>
     <table class="nextTable">
         <tr>
             <td class="d">
-                <a href="cornayel.html">
-                <img src="lakes.jpg" class="suwar"> 
-                <p class="fly"> Cornayel Lakes</p>
+                <a href="saint_charbe.php">
+                <img src="charbel.jpg" class="suwar"> 
+                <p class="fly"> Saint Charbel Tomb</p>
             </a>
                 </td>
             <td class="d">
-                <a href="cedars">
-                <img src="cedar.jpg" class="suwar">
-                <p class="fly">Cedars of God</p>
+                <a href="mohamad-alameen.php">
+                <img src="mohamad-alameen.jpg" class="suwar">
+                <p class="fly">Mohamad Al-Ameen Mosque</p>
             </a>
             </td>
             <td class="d">
                 
-                    <a href="chouwen.html">
-                    <img src="nohad.nature.jpg" class="suwar">
-                <p class="fly">Chouwen</p>
+                    <a href="khawla.php">
+                    <img src="khawla.jpg" class="suwar">
+                <p class="fly">Al-Sayeda Khawla Tomb</p>
                 </a>
                 
             </td>
             <td class="d">
-                <a href="jeita.html">
-                <img src="jeita.jpg" class="suwar">
-                 <p class="fly">Jeita Grotto</p>
+                <a href="niha.html">
+                <img src="niha.jpg" class="suwar">
+                 <p class="fly">Prophet Job Shrine</p>
                 </a>
             </td>
         </tr>
     </table>
+    <h1 class="h1">Christian Sites
+  </h1>
+  
+    <table class="nextTable">
+        <tr>
+            <td class="d"> &nbsp;
+                <a href="melkite.php">
+                <img src="Melkit_Greek_Catholic.jpg" class="suwar"> 
+                <p class="fly"> The Melkite Catholic<br> Cathedral of Saint Elias</p>
+            </a>
+                </td>
+            <td class="d">
+                <a href="Maronite.php">
+                <img src="Maronite-Cathedral.jpg" class="suwar">
+                <p class="fly">&nbsp;The Maronite Cathedral <br>of Saint George</p>
+            </a>
+            </td>
+            <td class="d">
+                
+                    <a href="Capuchin.php">
+                    <img src="capuchin.webp" class="suwar">
+                <p class="fly">&nbsp;The Capuchin Cathedral <br>of Saint Louis</p>
+                </a>
+                </td>
+            <td class="d">
+                <a href="mantara.php">
+                <img src="dame-Mantara.jpg" class="suwar">
+                 <p class="fly">Our Lady of <br>Awaiting </p>
+                </a>
+            </td>
+        </tr>
+    </table>
+    <h1 class="h1">Islamic Sites
+    </h1>
+    <table class="nextTable">
+        <tr>
+            <td class="d">
+                <a href="mansouri.php">
+                <img src="mansouri.jpg" class="suwar"> 
+                <p class="fly"> The Great Mosque <br> El-Mansouri</p>
+            </a>
+                </td>
+            <td class="d">
+                <a href="taynal.php">
+                <img src="taynal.jpg" class="suwar">
+                <p class="fly">Taynal <br> Mosque</p>
+            </a>
+            </td>
+            <td class="d">
+                
+                    <a href="nabi-shouaib.php">
+                    <img src="nabi-shuaib.png" class="suwar">
+                <p class="fly">Maqam el-Nabi <br> Sho’aib</p>
+                </a>
+                
+            </td>
+            <td class="d">
+                <a href="nabi-nouh.php">
+                <img src="nabi-nouh.jpg" class="suwar">
+                 <p class="fly">Maqam el-Nabi<br>Nouh</p> 
+                </a>
+            </td>
+        </tr>
+    </table>
+    
+   
    </div>
  
 

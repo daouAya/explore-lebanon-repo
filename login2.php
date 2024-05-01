@@ -1,28 +1,44 @@
+<?php
+session_start();
+if (isset($_SESSION['username'])) {
+    echo ("You are logged in.");
+    echo '<form method="post" action="logout.php">
+    <button type="submit" name="logout">Logout</button>
+</form>';
+}
+else{ echo'
+
 <!DOCTYPE html>
 <html>
 <head>
     <title>Login</title>
+    <link rel="stylesheet" href="login.css" />
 </head>
 <body>
+<div id="form">
     <h2>Login</h2>
     <?php if(isset($error_message)) { ?>
         <p><?php echo $error_message; ?></p>
     <?php } ?>
     <form method="post" action="loginproc.php">
-        <label for="uname">Username:</label>
-        <input type="text" id="uname" name="uname"><br><br>
-        <label for="upass">Password:</label>
-        <input type="password" id="upass" name="upass"><br><br>
-        <input type="submit" value="Login">
+        <label for="uname" class="label">Username:</label>
+        <input type="text" id="uname" class="input" name="uname"><br><br>
+        <label for="upass" class="label">Password:</label>
+        <input type="password" id="upass"class="input"  name="upass"><br><br>
+        <input type="submit" class="submit" value="Login">
     </form>
     <form method="post" action="logout.php">
-        <button type="submit" name="logout">Logout</button>
+        <button type="submit" class="submit" name="logout">Logout</button>
     </form>
-</body>
-
+    </div>
+    <img src="Progress indicator-bro.png" class="plane">
+    <a href="index.php" class="submit">Go back</a>
+    <a href="reg.php" class="submit">Register</a>
+</body>';
+    }
+?>
 <?php 
 
-session_start();
 
 // Database connection
 require("dbconn.php");

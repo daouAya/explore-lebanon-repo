@@ -20,14 +20,14 @@
                       
                     </button>
                     <div class="dropdown-content">
-                      <a href="nature.html">Nature and Adventures</a>
-                      <a href="His">Historical Tourism</a>
-                      <a href="religious.html">Religious Tourism</a>
-                      <a href="Winter">Winter Activities</a> 
-                      <a href="Summer">Summer Activities</a>
-                      <a href="city.html">City Entertainment</a> 
-                      <a href="nightlife.html">Nightlife</a> 
-                      <a href="Festivals">Festivals</a>
+                      <a href="nature.php">Nature and Adventures</a>
+                      <a href="historical.php">Historical Tourism</a>
+                      <a href="religious.php">Religious Tourism</a>
+                      <a href="winter.php">Winter Activities</a> 
+                      <a href="summer.php">Summer Activities</a>
+                      <a href="city.php">City Entertainment</a> 
+                      <a href="nightlife.php">Nightlife</a> 
+                      <a href="festival.php">Festivals</a>
                     </div>
                   </div>
                   <div class="dropdown">
@@ -93,67 +93,66 @@
   </table>
   
    <div class="under">
-    <h1 class="h1">TOP TOURIST DESTINATIONS
+    <h1 class="h1">Night Clubs
   </h1>
   
     <table class="nextTable">
         <tr>
             <td class="d">
-                <a href="musichall.html">
+                <a href="musichall.php">
                 <img src="musichall.jpg" class="suwar"> 
                 <p class="fly"> Music Hall</p>
             </a>
                 </td>
             <td class="d">
-                <a href="spine.html">
-                <img src="spinebeirut.jpg" class="suwar">
-                <p class="fly">SPINE</p>
+                <a href="sevenSisters.php">
+                <img src="sevenSisters.jpg" class="suwar">
+                <p class="fly">Seven Sisters</p>
             </a>
             </td>
             <td class="d">
                 
-                    <a href="mandaloun.html">
+                    <a href="mandaloun.php">
                     <img src="mandaloun.jpg" class="suwar">
                 <p class="fly">Al-Mandaloun</p>
                 </a>
                 
             </td>
             <td class="d">
-                <a href="PierreandFriends.html">
-                <img src="pierre-and-friends.jpg" class="suwar">
-                 <p class="fly">Pierre and Friends</p>
+                <a href="madHouse.php">
+                <img src="madHouse.jpg" class="suwar">
+                 <p class="fly">The Mad House</p> 
                 </a>
             </td>
         </tr>
     </table>
-    <h1 class="h1">RESERVES
+    <h1 class="h1">Bars
     </h1>
     <table class="nextTable">
         <tr>
             <td class="d">
-                <a href="musichall.html">
-                <img src="musichall.jpg" class="suwar"> 
-                <p class="fly">Tannourine</p>
+                <a href="spine.php">
+                <img src="spinebeirut.jpg" class="suwar"> 
+                <p class="fly">SPINE</p>
             </a>
                 </td>
             <td class="d">
-                <a href="cedars">
-                <img src="cedar.jpg" class="suwar">
-                <p class="fly">Baloou-Bal'a/Tannourine</p>
-            </a>
+            <a href="PierreandFriends.php">
+                <img src="pierre-and-friends.jpg" class="suwar">
+                 <p class="fly">Pierre and Friends</p> 
+                </a>
             </td>
             <td class="d">
-                
-                    <a href="chouwen.html">
-                    <img src="nohad.nature.jpg" class="suwar">
-                <p class="fly">Chouwen</p>
+                    <a href="escobar.php">
+                    <img src="escobar.png" class="suwar">
+                <p class="fly">Esco-Bar</p> 
                 </a>
                 
             </td>
             <td class="d">
-                <a href="jeita.html">
-                <img src="jeita.jpg" class="suwar">
-                 <p class="fly">Jeita Grotto</p>
+                <a href="rabbitHole.php">
+                <img src="rabbitHole.jpg" class="suwar">
+                 <p class="fly">Rabbit Hole</p> 
                 </a>
             </td>
         </tr>
