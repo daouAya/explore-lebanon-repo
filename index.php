@@ -64,7 +64,7 @@ echo "Welcome, " . $_SESSION['username'] . "!";
             </div>
              
             <a  cursor="pointer" onClick="scrollToSection('tips')">Tips</a>
-              <a href="#about">Contact Us</a> 
+              <a href="contact.php">Contact Us</a> 
               <a ><img src="search.png" class="login" title="Search" id="searchButton" onClick="openPopup()"></a>
               <div id="searchPopup" class="popup">
                 <p class="close" onClick="closePopup()">&times</p>

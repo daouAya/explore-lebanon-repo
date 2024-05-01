@@ -67,7 +67,7 @@ echo "Welcome, " . $_SESSION['username'] . "!";
             </div>
          
             <a  onClick="scrollToSection('tips')">Tips</a>
-            <a href="#about">Contact Us</a> 
+            <a href="contact.php">Contact Us</a> 
             <a ><img src="search.png" class="login" title="Search" id="searchButton" onClick="openPopup()"></a>
             <div id="searchPopup" class="popup">
               <button class="close" onClick="closePopup()">&times</button>
@@ -141,7 +141,7 @@ the revered king of France known for his piety and charity.
            </div>
            <br>
               <button class="fav-btn" id="fav-btn" onclick="addToFavorites(' Capuchin Cathedral of Saint Louis')"  style="background-color:#86621f; ;">Add to Favorites</button>
-              <a href="favorites.php" onclick="displayFavorites()"> &nbsp; &nbsp; View Favorites &nbsp;&nbsp;</a>
+              <a href="favorites.php"  class="nnn" onclick="displayFavorites()"> &nbsp; &nbsp; View Favorites &nbsp;&nbsp;</a>
 
 <!--star rating:-->
 

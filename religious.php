@@ -51,8 +51,8 @@
                 </a>
             </div>
             </div>
-              <a href="#about">Tips</a>
-              <a href="#about">Contact Us</a>
+              <a href="index.php">Tips</a>
+              <a href="contact.php">Contact Us</a>
               <a href="login"><img src="search.png" class="login" title="Search"></a>
               <a href="login2.php"><img src="login.png" class="login" title="Log in"></a>
               

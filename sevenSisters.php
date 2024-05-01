@@ -67,7 +67,7 @@ echo "Welcome, " . $_SESSION['username'] . "!";
             </div>
          
             <a  onClick="scrollToSection('tips')">Tips</a>
-            <a href="#about">Contact Us</a> 
+            <a href="contact.php">Contact Us</a> 
             <a ><img src="search.png" class="login" title="Search" id="searchButton" onClick="openPopup()"></a>
             <div id="searchPopup" class="popup">
               <button class="close" onClick="closePopup()">&times</button>
@@ -143,7 +143,7 @@ in the heart of Beirut. Situated in the vibrant Achrafieh district, this upscale
            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1170.765252642596!2d35.50276980533965!3d33.90448040597194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f16e97332e0ed%3A0x5e2842f17bbbacc6!2sSeven%20Sisters%20Beirut!5e0!3m2!1sen!2slb!4v1714578892519!5m2!1sen!2slb" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
               <button class="fav-btn" id="fav-btn" onclick="addToFavorites('Seven Sisters')"  style="background-color:rgb(92, 0, 0) ;">Add to Favorites</button>
-  <a href="favorites.php" onclick="displayFavorites()">View Favorites</a>
+  <a href="favorites.php" class="nnn" onclick="displayFavorites()">View Favorites</a>
 
 <!--star rating:-->
 

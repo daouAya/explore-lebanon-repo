@@ -67,7 +67,7 @@ echo "Welcome, " . $_SESSION['username'] . "!";
             </div>
          
             <a  onClick="scrollToSection('tips')">Tips</a>
-            <a href="#about">Contact Us</a> 
+            <a href="contact.php">Contact Us</a> 
             <a ><img src="search.png" class="login" title="Search" id="searchButton" onClick="openPopup()"></a>
             <div id="searchPopup" class="popup">
               <button class="close" onClick="closePopup()">&times</button>
@@ -144,7 +144,7 @@ Luxurious furnishings, impeccable service, and breathtaking views of the dance f
           </div>
           <br>
               <button class="fav-btn" id="fav-btn" onclick="addToFavorites('Al Mandaloun')" style= style="background-color:rgb(92, 0, 0) ;">Add to Favorites</button>
-  <a href="favorites.php" onclick="displayFavorites()">&nbsp; &nbsp;View Favorites&nbsp; &nbsp;</a>
+  <a href="favorites.php" class="nnn" onclick="displayFavorites()">&nbsp; &nbsp;View Favorites&nbsp; &nbsp;</a>
 
 <!--star rating:-->
 

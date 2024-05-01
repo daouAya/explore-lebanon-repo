@@ -51,11 +51,13 @@
                 </a>
             </div>
             </div>
-              <a href="#about">Tips</a>
-              <a href="#about">Contact Us</a>
-              <a href="login"><img src="search.png" class="login" title="Search" onClick="openPopup()"></a>
-              <a href="login2.php"><img src="login.png" class="login" title="Log in"></a>
-              
+              <a href="index.php">Tips</a>
+              <a href="contact.php">Contact Us</a>
+              <a ><img src="search.png" class="login" title="Search" id="searchButton" onClick="openPopup()"></a>
+              <div id="searchPopup" class="popup">
+                <p class="close" onClick="closePopup()">&times</p>
+                <input type="text" placeholder="Search for a place or region.."><button>Search</button>
+                </div>
             </div>
           </div>
   
