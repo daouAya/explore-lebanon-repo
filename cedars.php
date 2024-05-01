@@ -147,8 +147,9 @@ Visitors can explore the timeless beauty of the Cedars of God in Lebanon, wander
            
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3298.1822982944664!2d36.04633337552529!3d34.243891673085514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x152205ad16dd85fb%3A0x4f7ed5033f3af01b!2sCedars%20of%20God%20Bsharri!5e0!3m2!1sen!2slb!4v1714563252173!5m2!1sen!2slb"class="map" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
+            <br>
               <button class="fav-btn" id="fav-btn" onclick="addToFavorites('Balou3-Bal3a')" style="background-color:rgba(145, 236, 146, 0.688) ;">Add to Favorites</button>
-  <a href="favorites.php" onclick="displayFavorites()">View Favorites</a>
+  <a href="favorites.php" onclick="displayFavorites()">&nbsp; &nbsp; View Favorites&nbsp; &nbsp; </a>
 
 <!--star rating:-->
 

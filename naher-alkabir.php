@@ -141,9 +141,10 @@ retreat for nature lovers and adventurers alike.<br>
           </p>
            
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52524.87217809552!2d35.99373869592118!3d34.63438012318028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15222f33718a65a1%3A0x6443ecbed42a246f!2sNahr%20El%20Kabir!5e0!3m2!1sen!2slb!4v1714570404068!5m2!1sen!2slb" class="map" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-   
+          </div>
+          <br>
               <button class="fav-btn" id="fav-btn" onclick="addToFavorites('Naher Al kabir')" style="background-color:rgba(145, 236, 146, 0.688) ;">Add to Favorites</button>
-  <a href="favorites.php" onclick="displayFavorites()">View Favorites</a>
+  <a href="favorites.php" onclick="displayFavorites()">&nbsp; &nbsp;View Favorites&nbsp; &nbsp;</a>
 
 <!--star rating:-->
 

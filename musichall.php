@@ -143,8 +143,9 @@ The Music Hall in Beirut is not just a venue; it's an immersive experience. Nest
            <p>Location</p>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106156.52526731364!2d35.48464370174384!3d33.750549978060356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f16dd97485849%3A0xec76fb6b61858122!2sMusicHall%20Starco!5e0!3m2!1sen!2slb!4v1714578630903!5m2!1sen!2slb" class="map" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
+          <br>
               <button class="fav-btn" id="fav-btn" onclick="addToFavorites('Music Hall')" style="background-color:rgb(92, 0, 0) ;">Add to Favorites</button>
-  <a href="favorites.php" onclick="displayFavorites()">View Favorites</a>
+  <a href="favorites.php" onclick="displayFavorites()">&nbsp; &nbsp;View Favorites&nbsp; &nbsp;</a>
 
 <!--star rating:-->
 

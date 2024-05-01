@@ -13,15 +13,15 @@ echo "Welcome, " . $_SESSION['username'] . "!";
 <head>
     <link rel="icon" href="logo.png" type="image/x-icon">
     <meta charset="utf-8" />
-    <title>Pierre and Friends</title>
-    <link rel="stylesheet" href="nightplace.css" /> 
+    <title>Nabi Shuaib Tomb</title>
+    <link rel="stylesheet" href="religiousplace.css" /> 
     <script src="places.js" defer></script>
     <script src="place.js" defer></script>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
    
 
   </head>
-<body style="background-color: black;">
+<body style="background-color:#efdfb8;">
     
     <div class="content">
         <div class="header">
@@ -86,13 +86,13 @@ echo "Welcome, " . $_SESSION['username'] . "!";
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-    <img src="pierre1.jpg" class="img">
+    <img src="shuaib1.jpg" class="img">
     
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <img src="pierre2.jpg" class="img">
+    <img src="nabi-shuaib.png" class="img">
     
   </div>
 
@@ -110,35 +110,39 @@ echo "Welcome, " . $_SESSION['username'] . "!";
 <br>
 
 
- <h1> Pierre and Friends  </h1>
-<h2> &nbsp; &nbsp;Pierre and Friends Batroun :&nbsp; &nbsp;  </h2>
+ <h1> Nabi Shuaib Tomb</h1>
+<h2> &nbsp; &nbsp;Nabi Shuaib Tomb &nbsp; &nbsp;  </h2>
 
 <p class="description">
-Nestled in the charming coastal town of Batroun, Pierre and Friends is not just a beach club;<br>
- it's a quintessential Mediterranean experience. Set against the backdrop of azure waters and golden sands,<br>
-  this waterfront destination beckons visitors with its laid-back vibe and vibrant ambiance.
+
+The Maqam Nabi Shuaib, situated near the town of Hasbaya in southern Lebanon, holds profound spiritual significance <br>
+for both the Druze community and followers of Islam. Believed to be the burial place of the biblical figure Jethro,<br>
+ or Nabi Shuaib in Arabic, who is revered as a prophet in both Druze and Islamic traditions, the maqam serves as a <br>
+ sacred pilgrimage site and a symbol of religious unity and reverence.
+  
           <div id="fact">
             <h3 class="candle">Did You Know?</h3>
             <br>
             <p>
-            The venue actively promotes eco-friendly practices, such as recycling and reducing plastic waste,<br>
-             making it a responsible choice for environmentally conscious travelers.
+            One intriguing aspect of the Maqam Nabi Shuaib is its unique architectural design, which reflects the<br>
+             cultural synthesis and historical continuity of the region. The maqam features a simple yet elegant structure,<br>
+              with a white dome and minaret overlooking the surrounding landscape.
 </p>
           </div>
           <br><br><br>
-          <h2> &nbsp; &nbsp;Entertainment:</h2>
+          <h2> &nbsp; &nbsp;Symbol of Unity:</h2>
           <p class="description">  
-          The venue itself is a haven of relaxation and indulgence, with its stylish wooden decks, cozy seating areas,<br>
-           and panoramic views of the sea. Whether you're lounging in a sunbed, sipping cocktails at the bar, or enjoying a delicious<br>
-            meal at the restaurant, every moment at Pierre and Friends is infused with a sense of tranquility and leisure.
-
+          Today, the Maqam Nabi Shuaib stands as a cherished symbol of Lebanon's rich religious heritage and cultural diversity.<br>
+           Its significance transcends sectarian boundaries, serving as a place of spiritual solace and communal celebration<br>
+            for people of all faiths. As a beacon of unity and tolerance, the maqam continues to inspire devotion and reverence <br>
+            among pilgrims and visitors, embodying the timeless values of faith, compassion, and mutual understanding.
           </p>
            <p>Location</p>
-           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3299.4152987061307!2d35.64685997552382!3d34.2124128730971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f5eca74bfa12d%3A0x70aca929b10be725!2sPierre%20%26%20Friends!5e0!3m2!1sen!2slb!4v1714580234871!5m2!1sen!2slb" class="map" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-          <br>
-              <button class="fav-btn" id="fav-btn" onclick="addToFavorites('Pierre and Friends')"  style="background-color:rgb(92, 0, 0) ;">Add to Favorites</button>
-  <a href="favorites.php" onclick="displayFavorites()">&nbsp; &nbsp;View Favorites&nbsp; &nbsp;</a>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13323.88613226719!2d35.67485015564345!3d33.39790687456214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ec69cc4ea1465%3A0xe5a197746f6edd48!2sHasbaiyya!5e0!3m2!1sen!2slb!4v1714602455967!5m2!1sen!2slb" class="map" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           </div>
+           <br>
+              <button class="fav-btn" id="fav-btn" onclick="addToFavorites('Nabi Shouaib Tomb')"  style="background-color:#86621f; ;">Add to Favorites</button>
+              <a href="favorites.php" onclick="displayFavorites()"> &nbsp; &nbsp; View Favorites &nbsp;&nbsp;</a>
 
 <!--star rating:-->
 

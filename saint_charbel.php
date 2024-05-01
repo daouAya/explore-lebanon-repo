@@ -13,15 +13,15 @@ echo "Welcome, " . $_SESSION['username'] . "!";
 <head>
     <link rel="icon" href="logo.png" type="image/x-icon">
     <meta charset="utf-8" />
-    <title>Pierre and Friends</title>
-    <link rel="stylesheet" href="nightplace.css" /> 
+    <title>Seven Sisters </title>
+    <link rel="stylesheet" href="religiousplace.css" /> 
     <script src="places.js" defer></script>
     <script src="place.js" defer></script>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
    
 
   </head>
-<body style="background-color: black;">
+<body style="background-color:#efdfb8;">
     
     <div class="content">
         <div class="header">
@@ -86,13 +86,13 @@ echo "Welcome, " . $_SESSION['username'] . "!";
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-    <img src="pierre1.jpg" class="img">
+    <img src="charbel1.jpg" class="img">
     
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <img src="pierre2.jpg" class="img">
+    <img src="charbel2.jpg" class="img">
     
   </div>
 
@@ -110,35 +110,47 @@ echo "Welcome, " . $_SESSION['username'] . "!";
 <br>
 
 
- <h1> Pierre and Friends  </h1>
-<h2> &nbsp; &nbsp;Pierre and Friends Batroun :&nbsp; &nbsp;  </h2>
+ <h1> Saint Charbel Tomb </h1>
+<h2> &nbsp; &nbsp;Saint Charbel Tomb:&nbsp; &nbsp;  </h2>
 
 <p class="description">
-Nestled in the charming coastal town of Batroun, Pierre and Friends is not just a beach club;<br>
- it's a quintessential Mediterranean experience. Set against the backdrop of azure waters and golden sands,<br>
-  this waterfront destination beckons visitors with its laid-back vibe and vibrant ambiance.
+
+The tomb of Saint Charbel, one of Lebanon's most venerated saints, holds a special place in the hearts of countless pilgrims and<br>
+ believers. Located in the peaceful setting of Annaya, Lebanon, the tomb serves as a focal point for those seeking solace,<br>
+  healing, and spiritual guidance.
+
+Saint Charbel, a Maronite monk known for his deep devotion to prayer and asceticism, <br>
+lived a life of humility and holiness in the late 19th century. After his passing in 1898, numerous miraculous healings 
+<br> and intercessions were attributed to him, solidifying his reputation as a saintly figure.
           <div id="fact">
             <h3 class="candle">Did You Know?</h3>
             <br>
             <p>
-            The venue actively promotes eco-friendly practices, such as recycling and reducing plastic waste,<br>
-             making it a responsible choice for environmentally conscious travelers.
+            Saint Charbel, despite being buried for decades, remained remarkably intact and even exuded a mysterious liquid<br>
+             known as "myrrh." This phenomenon, often attributed to the saint's sanctity, has been a source of wonder and awe <br>
+             for believers, drawing even more pilgrims to his tomb in search of spiritual blessings and healing.
+
+
+
 </p>
           </div>
           <br><br><br>
-          <h2> &nbsp; &nbsp;Entertainment:</h2>
+          <h2> &nbsp; &nbsp;Attractions:</h2>
           <p class="description">  
-          The venue itself is a haven of relaxation and indulgence, with its stylish wooden decks, cozy seating areas,<br>
-           and panoramic views of the sea. Whether you're lounging in a sunbed, sipping cocktails at the bar, or enjoying a delicious<br>
-            meal at the restaurant, every moment at Pierre and Friends is infused with a sense of tranquility and leisure.
+          What makes Saint Charbel's tomb particularly special is the palpable sense of peace and divine presence that<br>
+           envelops the space. Many visitors report experiencing profound spiritual encounters and receiving answers to their <br>
+           prayers while in the presence of the saint's relics.
+           The tomb itself is a humble yet sacred site, adorned with candles, flowers, and tokens of gratitude from devotees<br>
+            who have experienced the saint's miraculous interventions. Pilgrims from all walks of life flock to the tomb,<br>
+             seeking Saint Charbel's intercession for healing, protection, and blessings.
 
           </p>
            <p>Location</p>
-           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3299.4152987061307!2d35.64685997552382!3d34.2124128730971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f5eca74bfa12d%3A0x70aca929b10be725!2sPierre%20%26%20Friends!5e0!3m2!1sen!2slb!4v1714580234871!5m2!1sen!2slb" class="map" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-          <br>
-              <button class="fav-btn" id="fav-btn" onclick="addToFavorites('Pierre and Friends')"  style="background-color:rgb(92, 0, 0) ;">Add to Favorites</button>
-  <a href="favorites.php" onclick="displayFavorites()">&nbsp; &nbsp;View Favorites&nbsp; &nbsp;</a>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3303.000685700778!2d35.751369375519694!3d34.12073217313134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f519d4dd95839%3A0x7cc87101cbb702cf!2sMonastery%20Saint%20Maroun!5e0!3m2!1sen!2slb!4v1714593267150!5m2!1sen!2slb" class="map" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           </div>
+           <br>
+              <button class="fav-btn" id="fav-btn" onclick="addToFavorites('Saint Charbel Tomb')"  style="background-color:#86621f; ;">Add to Favorites</button>
+              <a href="favorites.php" onclick="displayFavorites()"> &nbsp; &nbsp; View Favorites &nbsp;&nbsp;</a>
 
 <!--star rating:-->
 

@@ -140,8 +140,9 @@ Activities along the Hasbani River include swimming, kayaking, riverside picnics
            
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26656.15137041342!2d35.6572703877068!3d33.37057204892498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ec6d50e34f407%3A0x67259d93122e5620!2sHasbani%20River!5e0!3m2!1sen!2slb!4v1714570807719!5m2!1sen!2slb" class="map" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
+            <br>
               <button class="fav-btn" id="fav-btn" onclick="addToFavorites('Hasbani River')" style="background-color:rgba(145, 236, 146, 0.688) ;">Add to Favorites</button>
-  <a href="favorites.php" onclick="displayFavorites()">View Favorites</a>
+  <a href="favorites.php" onclick="displayFavorites()">&nbsp; &nbsp;View Favorites&nbsp; &nbsp;</a>
 
 <!--star rating:-->
 

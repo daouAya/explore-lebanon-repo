@@ -379,9 +379,18 @@ textarea {
   border-radius:25px;
   border:transparent;
   cursor:pointer;
+  color:white;
 
 }
 p{
   color:white;
 }
-
+a{
+  width:200px;
+  height:70px;
+  font-size: 20px;;
+  text-decoration: none;
+  border-radius:25px;
+  background-color: #760808;;
+  color:white;
+}

@@ -8,7 +8,7 @@ body{
   }
   .header {
     overflow: hidden;
-    background-color:rgba(28, 60, 29, 0.589);
+    background-color:#86621f; ;
     padding: 0px 10px;
   }
   
@@ -43,13 +43,13 @@ body{
   
   
   .header a:hover {
-    background-color:#81d48ca0;;
+    background-color:#ddb468ae;;
     color: rgb(255, 255, 255);
   }
   
   
   .header a.active {
-    background-color: #81d48ca0;
+    background-color: #ddb468ae;;
     color:rgb(3, 41, 3);
   }
   
@@ -76,7 +76,7 @@ body{
    
   }
   .dropbtn:hover{
-    background-color: #81d48ca0;
+    background-color: #ddb468ae;;
   }
   .dropdown  {
     font-size: 15px;
@@ -138,7 +138,7 @@ body{
     left: 50%;
     width:30%;
     padding:5px;
-    background-color: #a4dc63;
+    background-color: #ddb468ae;;
     border-radius: 5px;
     z-index: 9999;
     align-items: center; 
@@ -156,7 +156,7 @@ body{
   .popup button {
     padding: 5px 10px;
     border-radius: 3px;
-    background-color: #4c8f3a;
+    background-color: #a27727ae;;
     color:white;
     cursor: pointer;
     font-family: candle-light;
@@ -164,7 +164,7 @@ body{
   }
   .popup button:hover{
     color:white;
-    background-color: #028a64;
+    background-color: #56431fae;;
     font-family: candle-light;
   }
   * {box-sizing:border-box}
@@ -252,9 +252,9 @@ h1{
   position:relative;
   top:-700px;
  font-size:100px;
-background-color: rgba(28, 60, 29, 0.477);
+background-color: #86621f96;
   font-family: candle-light;
-color:#fffdfd;
+color:#000000;
 
 
 }
@@ -268,7 +268,7 @@ color:#fffdfd;
 }
 .rating-box {
   position: relative;
-  background: #fff;
+  background: #ffffff00;
   padding: 25px 50px 35px;
   border-radius: 25px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
@@ -307,10 +307,9 @@ font-family:Verdana, Geneva, Tahoma, sans-serif;
 
 }
 h2{
- background-color: rgba(28, 60, 29, 0.405);
+ background-color:#86621f96;
  width:70%;
- 
-  margin-bottom:2%;
+ margin-bottom:2%;
 font-size:50px;
  margin-top:-100px;
 font-family: candle-light;
@@ -329,17 +328,20 @@ left:2%;
   text-align: center;
   font-size:30px;
   margin-right:20px;
-  height:600px;
+  height:700px;
   width:400px;
-  border: #ccc;
-  background-color: rgba(177, 236, 179, 0.405);;
+  color:rgb(0, 0, 0);
+  background-color: #86621f96;
   position: relative;
   float:right;
   top:-300px;
   }
+  
   .candle{
     font-family: candle-light;
-    background-color: #b4f88f71;
+    background-color: #86621f;
+    color:black;
+    
   }
   #restricted{
     margin-left:40px;
@@ -359,7 +361,7 @@ textarea {
 }
 
 .comment {
-    border: 1px solid #ccc;
+    border: 1px solid #efdfb8;
     padding: 10px;
     margin-bottom: 10px;
 }
@@ -370,21 +372,30 @@ textarea {
 
 .comment p {
     margin-bottom: 0;
+    color:#86621f;
 }
 .fav-btn{
-  width:200px;
-  height:70px;
-  border-radius:25px;
-  border:transparent;
-  cursor:pointer;
-  color:white;
+    width:200px;
+    height:70px;
+    border-radius:25px;
+    border:transparent;
+    cursor:pointer;
+    font-size: 25px;
+    margin-top: 10px;
+    background-color: #86621f;;
+    color:white;
+  }
+  
+p{
+  color:rgb(0, 0, 0);
 }
 a{
-  width:200px;
-  height:70px;
-  font-size: 20px;;
-  text-decoration: none;
-  border-radius:25px;
-  background-color: #19531f;;
-  color:white;
+    width:200px;
+    height:70px;
+    font-size: 20px;;
+    text-decoration: none;
+    border-radius:25px;
+    background-color: #86621f;;
+    color:white;
 }
+

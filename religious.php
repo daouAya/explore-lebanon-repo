@@ -99,7 +99,7 @@ Experience the tapestry of faiths that makes Lebanon a haven for seekers of cult
     <table class="nextTable">
         <tr>
             <td class="d">
-                <a href="saint_charbe.php">
+                <a href="saint_charbel.php">
                 <img src="charbel.jpg" class="suwar"> 
                 <p class="fly"> Saint Charbel Tomb</p>
             </a>
@@ -114,12 +114,12 @@ Experience the tapestry of faiths that makes Lebanon a haven for seekers of cult
                 
                     <a href="khawla.php">
                     <img src="khawla.jpg" class="suwar">
-                <p class="fly">Al-Sayeda Khawla Tomb</p>
+                <p class="fly">Al-Sayeda Khawla Shrine</p>
                 </a>
                 
             </td>
             <td class="d">
-                <a href="niha.html">
+                <a href="niha.phps">
                 <img src="niha.jpg" class="suwar">
                  <p class="fly">Prophet Job Shrine</p>
                 </a>

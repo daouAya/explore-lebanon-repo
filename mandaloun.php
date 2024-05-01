@@ -142,8 +142,9 @@ Luxurious furnishings, impeccable service, and breathtaking views of the dance f
            <p>Location</p>
            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3311.8976591171413!2d35.51085447550949!3d33.89228947321769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f16fc80f4e93d%3A0x6679e5b08cbcfa64!2sAl%20Mandaloun!5e0!3m2!1sen!2slb!4v1714579261992!5m2!1sen!2slb" class="map" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
+          <br>
               <button class="fav-btn" id="fav-btn" onclick="addToFavorites('Al Mandaloun')" style= style="background-color:rgb(92, 0, 0) ;">Add to Favorites</button>
-  <a href="favorites.php" onclick="displayFavorites()">View Favorites</a>
+  <a href="favorites.php" onclick="displayFavorites()">&nbsp; &nbsp;View Favorites&nbsp; &nbsp;</a>
 
 <!--star rating:-->
 

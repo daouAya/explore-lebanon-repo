@@ -133,8 +133,9 @@ With its reputation as one of Beirut's hottest nightlife destinations, Spine con
            <p>Location</p>
            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.739966637618!2d35.58063878246923!3d33.922091504120495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f3f2029034ed9%3A0x87e3c388ac044e67!2sSPINE%20Beirut!5e0!3m2!1sen!2slb!4v1714580122238!5m2!1sen!2slb"class="map" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
+          <br>
               <button class="fav-btn" id="fav-btn" onclick="addToFavorites('Spine Beirut')" style="background-color:rgba(145, 236, 146, 0.688) ;">Add to Favorites</button>
-  <a href="favorites.php" onclick="displayFavorites()">View Favorites</a>
+  <a href="favorites.php" onclick="displayFavorites()">&nbsp; &nbsp;View Favorites&nbsp; &nbsp;</a>
 
 <!--star rating:-->
 

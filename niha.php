@@ -13,15 +13,15 @@ echo "Welcome, " . $_SESSION['username'] . "!";
 <head>
     <link rel="icon" href="logo.png" type="image/x-icon">
     <meta charset="utf-8" />
-    <title>Pierre and Friends</title>
-    <link rel="stylesheet" href="nightplace.css" /> 
+    <title>Prophet Job Tomb</title>
+    <link rel="stylesheet" href="religiousplace.css" /> 
     <script src="places.js" defer></script>
     <script src="place.js" defer></script>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
    
 
   </head>
-<body style="background-color: black;">
+<body style="background-color:#efdfb8;">
     
     <div class="content">
         <div class="header">
@@ -86,13 +86,13 @@ echo "Welcome, " . $_SESSION['username'] . "!";
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-    <img src="pierre1.jpg" class="img">
+    <img src="niha1.jpg" class="img">
     
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <img src="pierre2.jpg" class="img">
+    <img src="niha2.jpg" class="img">
     
   </div>
 
@@ -110,35 +110,41 @@ echo "Welcome, " . $_SESSION['username'] . "!";
 <br>
 
 
- <h1> Pierre and Friends  </h1>
-<h2> &nbsp; &nbsp;Pierre and Friends Batroun :&nbsp; &nbsp;  </h2>
+ <h1> Prophet Job Tomb</h1>
+<h2> &nbsp; &nbsp;Prophet Job Tomb &nbsp; &nbsp;  </h2>
 
 <p class="description">
-Nestled in the charming coastal town of Batroun, Pierre and Friends is not just a beach club;<br>
- it's a quintessential Mediterranean experience. Set against the backdrop of azure waters and golden sands,<br>
-  this waterfront destination beckons visitors with its laid-back vibe and vibrant ambiance.
+The Prophet Job Shrine in Niha, Lebanon, is a revered site steeped in both religious significance and historical intrigue.<br>
+ Situated amidst the breathtaking landscapes of the Qadisha Valley, the shrine is dedicated to Prophet Job (Nabi Ayoub in Arabic),<br>
+  a figure venerated in Judaism, Christianity, and Islam for his perseverance and unwavering faith in the face of adversity.
+  
           <div id="fact">
             <h3 class="candle">Did You Know?</h3>
             <br>
             <p>
-            The venue actively promotes eco-friendly practices, such as recycling and reducing plastic waste,<br>
-             making it a responsible choice for environmentally conscious travelers.
+           
+Another fascinating aspect of the Prophet Job Shrine in Niha, Lebanon, is its connection to local folklore and traditions.<br>
+ Throughout the centuries, the shrine has been the subject of numerous myths and legends passed down through generations.<br>
+  One particularly intriguing legend surrounding the shrine is the belief in its mystical healing powers.
+
 </p>
           </div>
           <br><br><br>
-          <h2> &nbsp; &nbsp;Entertainment:</h2>
+          <h2> &nbsp; &nbsp;A Rich History:</h2>
           <p class="description">  
-          The venue itself is a haven of relaxation and indulgence, with its stylish wooden decks, cozy seating areas,<br>
-           and panoramic views of the sea. Whether you're lounging in a sunbed, sipping cocktails at the bar, or enjoying a delicious<br>
-            meal at the restaurant, every moment at Pierre and Friends is infused with a sense of tranquility and leisure.
-
+          Legend has it that Job sought refuge in the cave adjacent to the shrine during his trials, and the site has since<br>
+           become a place of pilgrimage for believers seeking solace and divine intervention. One fascinating aspect of the<br>
+            shrine is its unique architectural design, blending elements of ancient Phoenician craftsmanship with Islamic <br>
+            aesthetics. The intricately carved stone walls and domed roof create an atmosphere of reverence and tranquility,<br>
+             inviting visitors to reflect on the enduring wisdom of Job's story. Moreover, the shrine's location amid the rugged<br>
+              beauty of the Qadisha Valley adds to its mystique
           </p>
            <p>Location</p>
-           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3299.4152987061307!2d35.64685997552382!3d34.2124128730971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f5eca74bfa12d%3A0x70aca929b10be725!2sPierre%20%26%20Friends!5e0!3m2!1sen!2slb!4v1714580234871!5m2!1sen!2slb" class="map" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-          <br>
-              <button class="fav-btn" id="fav-btn" onclick="addToFavorites('Pierre and Friends')"  style="background-color:rgb(92, 0, 0) ;">Add to Favorites</button>
-  <a href="favorites.php" onclick="displayFavorites()">&nbsp; &nbsp;View Favorites&nbsp; &nbsp;</a>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106407.00212119965!2d35.54311169217944!3d33.547690659019736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151edc5b53a08889%3A0x1dd2559982566bdc!2sNiha%20Chouf!5e0!3m2!1sen!2slb!4v1714598681341!5m2!1sen!2slb" class="map" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           </div>
+           <br>
+              <button class="fav-btn" id="fav-btn" onclick="addToFavorites('Prophet Job Tomb')"  style="background-color:#86621f; ;">Add to Favorites</button>
+              <a href="favorites.php" onclick="displayFavorites()"> &nbsp; &nbsp; View Favorites &nbsp;&nbsp;</a>
 
 <!--star rating:-->
 

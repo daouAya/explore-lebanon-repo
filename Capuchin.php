@@ -13,15 +13,15 @@ echo "Welcome, " . $_SESSION['username'] . "!";
 <head>
     <link rel="icon" href="logo.png" type="image/x-icon">
     <meta charset="utf-8" />
-    <title>Pierre and Friends</title>
-    <link rel="stylesheet" href="nightplace.css" /> 
+    <title>The Capuchin Cathedral of Saint Louis</title>
+    <link rel="stylesheet" href="religiousplace.css" /> 
     <script src="places.js" defer></script>
     <script src="place.js" defer></script>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
    
 
   </head>
-<body style="background-color: black;">
+<body style="background-color:#efdfb8;">
     
     <div class="content">
         <div class="header">
@@ -86,13 +86,13 @@ echo "Welcome, " . $_SESSION['username'] . "!";
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-    <img src="pierre1.jpg" class="img">
+    <img src="capuchin1.jpg" class="img">
     
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <img src="pierre2.jpg" class="img">
+    <img src="capuchin2.jpeg" class="img">
     
   </div>
 
@@ -110,35 +110,38 @@ echo "Welcome, " . $_SESSION['username'] . "!";
 <br>
 
 
- <h1> Pierre and Friends  </h1>
-<h2> &nbsp; &nbsp;Pierre and Friends Batroun :&nbsp; &nbsp;  </h2>
+ <h1> The Capuchin Cathedral of Saint Louis</h1>
+<h2> &nbsp; &nbsp;The Capuchin Cathedral of Saint Louis &nbsp; &nbsp;  </h2>
 
 <p class="description">
-Nestled in the charming coastal town of Batroun, Pierre and Friends is not just a beach club;<br>
- it's a quintessential Mediterranean experience. Set against the backdrop of azure waters and golden sands,<br>
-  this waterfront destination beckons visitors with its laid-back vibe and vibrant ambiance.
+
+The Capuchin Cathedral of Saint Louis, located in Beirut, is a historic landmark and a testament to Lebanon's religious <br>
+and architectural heritage. Built by Capuchin monks in the 19th century, the cathedral is dedicated to Saint Louis IX, <br>
+the revered king of France known for his piety and charity. 
+  
           <div id="fact">
             <h3 class="candle">Did You Know?</h3>
             <br>
             <p>
-            The venue actively promotes eco-friendly practices, such as recycling and reducing plastic waste,<br>
-             making it a responsible choice for environmentally conscious travelers.
+            An interesting fact about the Capuchin Cathedral of Saint Louis is its role as a sanctuary during Lebanon's <br>
+            troubled times. Throughout the years, the cathedral has provided refuge for those seeking solace and spiritual <br>
+            guidance amidst periods of conflict and unrest
 </p>
           </div>
           <br><br><br>
-          <h2> &nbsp; &nbsp;Entertainment:</h2>
+          <h2> &nbsp; &nbsp;More than Just a Cathedral:</h2>
           <p class="description">  
-          The venue itself is a haven of relaxation and indulgence, with its stylish wooden decks, cozy seating areas,<br>
-           and panoramic views of the sea. Whether you're lounging in a sunbed, sipping cocktails at the bar, or enjoying a delicious<br>
-            meal at the restaurant, every moment at Pierre and Friends is infused with a sense of tranquility and leisure.
-
+          Today, the Capuchin Cathedral of Saint Louis continues to be a beacon of hope and resilience in Beirut,<br>
+           welcoming visitors from around the world to experience its timeless beauty and sacred atmosphere. <br>
+           As a symbol of faith and unity, the cathedral stands as a testament to the enduring power of spirituality to<br>
+            inspire and uplift even in the face of adversity.
           </p>
            <p>Location</p>
-           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3299.4152987061307!2d35.64685997552382!3d34.2124128730971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f5eca74bfa12d%3A0x70aca929b10be725!2sPierre%20%26%20Friends!5e0!3m2!1sen!2slb!4v1714580234871!5m2!1sen!2slb" class="map" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-          <br>
-              <button class="fav-btn" id="fav-btn" onclick="addToFavorites('Pierre and Friends')"  style="background-color:rgb(92, 0, 0) ;">Add to Favorites</button>
-  <a href="favorites.php" onclick="displayFavorites()">&nbsp; &nbsp;View Favorites&nbsp; &nbsp;</a>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3311.6768843424657!2d35.499787975509605!3d33.89797457321547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f16e7100447d9%3A0xa8fb4c9185b779a2!2sSaint%20Louis%20Cathedral%20of%20the%20Capuchin%20Fathers!5e0!3m2!1sen!2slb!4v1714599797374!5m2!1sen!2slb" class="map" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           </div>
+           <br>
+              <button class="fav-btn" id="fav-btn" onclick="addToFavorites(' Capuchin Cathedral of Saint Louis')"  style="background-color:#86621f; ;">Add to Favorites</button>
+              <a href="favorites.php" onclick="displayFavorites()"> &nbsp; &nbsp; View Favorites &nbsp;&nbsp;</a>
 
 <!--star rating:-->
 
